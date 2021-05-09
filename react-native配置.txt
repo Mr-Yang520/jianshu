@@ -1,0 +1,9 @@
+安装 java https://www.oracle.com/cn/java/technologies/javase/javase-jdk8-downloads.html
+安装 Android Studio 配置环境 ANDROID_HOME C:\Users\yourpath\AppData\Local\Android\sdk
+path 配置 %JAVA_HOME%\bin  %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin  %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
+%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin
+
+npm install -g yarn
+npx react-native init AwesomeProject
+yarn android
+yarn ios
