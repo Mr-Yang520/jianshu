@@ -1,0 +1,236 @@
+.Detail {
+    background : #f9f9f9;
+    padding-top: 55px;
+
+    .Main {
+        width          : 1000px;
+        margin         : 0 auto;
+        padding        : 10px;
+        display        : flex;
+        justify-content: space-between;
+
+        .Titles {
+            width     : 730px;
+            padding   : 30px;
+            background: #fff;
+
+            h1 {
+                font-size : 30px;
+                word-break: break-word;
+                color     : #404040;
+            }
+
+            .Avatar {
+                display    : flex;
+                align-items: center;
+                margin     : 30px 0;
+
+                img {
+                    width        : 50px;
+                    height       : 50px;
+                    border-radius: 50%;
+                }
+
+                .anthorName {
+                    margin-left: 8px;
+
+                    .named_Arg {
+                        display      : flex;
+                        align-items  : center;
+                        margin-bottom: 7px;
+
+                        span:nth-child(2) {
+                            padding        : 5px 12px;
+                            color          : #ec7259;
+                            border         : 1px solid #ec7259;
+                            border-radius  : 30px;
+                            display        : flex;
+                            justify-content: center;
+                            align-items    : center;
+                            font-size      : 12px;
+                            cursor         : pointer;
+                            margin-left    : 10px;
+                        }
+                    }
+
+                    .Timer {
+                        font-size: 13px;
+                        color    : #969696;
+                    }
+                }
+            }
+
+            .particulars {
+                word-break    : break-word;
+                line-height   : 1.8;
+                font-size     : 16px;
+                color         : #404040;
+                padding-bottom: 20px;
+                border-bottom : 1px solid #eee;
+
+                p {
+                    margin-bottom: 20px;
+                }
+                img{
+                    width: 100%;
+                }
+                .ant-image-mask{
+                    cursor: zoom-in;
+                }
+                .ant-image-preview-wrap{
+                    cursor: zoom-out !important;
+                }
+                .ant-image-mask:hover{
+                    opacity: 0;
+                }
+            }
+
+            .dissertation {
+                border-top : 1px solid #f9f9f9;
+                padding-top: 25px;
+
+                h1 {
+                    color        : #404040;
+                    font-size    : 18px;
+                    padding-left : 10px;
+                    border-left  : 4px solid #ec7259;
+                    margin-bottom: 18px;
+                }
+
+                .disserClassify {
+                    display  : flex;
+                    flex-wrap: wrap;
+
+                    div {
+                        display      : flex;
+                        align-items  : center;
+                        background   : #f5f5f5;
+                        padding      : 5px 10px 5px 5px;
+                        border-radius: 4px;
+                        font-size    : 14px;
+                        line-height  : 20px;
+                        margin: 0 10px 12px 0;
+
+                        img {
+                            width : 24px;
+                            height: 24px;
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .plate {
+        width      : 260px;
+        margin-left: 10px;
+
+        .RightTop {
+            background: #fff;
+            padding   : 15px;
+
+            .Avatar {
+                display        : flex;
+                align-items    : center;
+                justify-content: space-between;
+                border-bottom  : 1px solid #eee;
+                padding-bottom : 15px;
+
+                img {
+                    width        : 45px;
+                    height       : 45px;
+                    border-radius: 50%;
+                }
+
+                .anthorName {
+
+                    .named_Arg {
+                        font-size    : 14px;
+                        color        : #2d2d2d;
+                        margin-bottom: 6px;
+                    }
+
+                    .Timer {
+                        color    : #969696;
+                        font-size: 12px;
+                    }
+                }
+
+                .attention {
+                    span {
+                        padding        : 5px 12px;
+                        color          : #ec7259;
+                        border         : 1px solid #ec7259;
+                        border-radius  : 30px;
+                        display        : flex;
+                        justify-content: center;
+                        align-items    : center;
+                        font-size      : 12px;
+                        cursor         : pointer;
+                    }
+                }
+            }
+
+            .other {
+                .Texts {
+                    margin-top: 16px;
+
+                    p {
+                        font-size: 14px;
+                        color    : #404040;
+                        cursor   : pointer;
+                    }
+
+                    p:hover {
+                        text-decoration: underline;
+                    }
+
+                    span {
+                        font-size : 12px;
+                        color     : #969696;
+                        display   : flex;
+                        margin-top: 9px;
+                    }
+                }
+            }
+        }
+
+        .Recommend {
+            background: #fff;
+            padding   : 15px;
+            color     : #404040;
+            margin-top: 12px;
+            position  : sticky;
+            top       : 60px;
+
+            .reader {
+                margin-bottom: 15px;
+                position     : relative;
+                padding-left : 7px;
+                border-left  : 4px solid #ec7259;
+            }
+
+            .Texts {
+                margin-bottom: 12px;
+
+                p {
+                    font-size: 14px;
+                    color    : #404040;
+                    cursor   : pointer;
+                }
+
+                p:hover {
+                    text-decoration: underline;
+                }
+
+                span {
+                    font-size : 12px;
+                    color     : #969696;
+                    display   : flex;
+                    margin-top: 9px;
+                }
+            }
+        }
+    }
+}

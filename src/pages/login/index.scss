@@ -1,0 +1,95 @@
+.login {
+    width          : 100%;
+    height         : 100vh;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    position       : relative;
+    background     : #f1f1f1;
+
+    .Logo {
+        position: absolute;
+        left    : 60px;
+        top     : 40px;
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .register {
+        width              : 820px;
+        height             : 600px;
+        margin             : 0 auto;
+        background-image   : url('../../common/icon/Phone.png');
+        background-size    : 40%;
+        background-repeat  : no-repeat;
+        background-position: 45px 0;
+        position           : relative;
+        display            : flex;
+        align-items        : flex-start;
+        justify-content    : space-between;
+
+        .FeedIn {
+            width           : 400px;
+            padding         : 50px 50px 30px;
+            background-color: #fff;
+            border-radius   : 4px;
+            box-shadow      : 0 0 8px rgb(0 0 0 / 10%);
+            vertical-align  : middle;
+            display         : inline-block;
+
+            p {
+                display        : flex;
+                justify-content: center;
+                margin-bottom: 50px;
+
+                span {
+                    width          : 60px;
+                    padding-bottom : 10px;
+                    font-weight    : 700;
+                    color          : #ea6f5a;
+                    border-bottom  : 2px solid #ea6f5a;
+                    display        : flex;
+                    justify-content: center;
+                }
+            }
+
+            input {
+                width: 300px;
+                height: 40px;
+            }
+
+            .ant-input-password {
+                width:300px;
+                input{
+                    height: 30px;
+                }
+            }
+            .Problem{
+                display: flex;
+                justify-content: flex-end;
+                color: #999;
+                font-size: 14px;
+                margin: 30px 0;
+            }
+            .loginBtn{
+                background: #3194d0;
+                padding: 15px 18px;
+                border-radius: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                cursor: pointer;
+                margin-bottom: 50px;
+            }
+            .loginBtn:hover{
+                background: #187cb7;
+            }
+        }
+    }
+    .Header {
+        display: none;
+    }
+}
